@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^auteur/([^\.]+) ./rest_auteur.php?username=$1
+RewriteRule ^auteur$ ./rest_auteur.php
